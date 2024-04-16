@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706486400&semt=ais");
+  background-size: cover;
+  /* Fixed background */
+  background-attachment: fixed;
+}
+
+img {
+  box-shadow: 1px 1px 3px 2px #444;
+  transition: 0.5s
+}
+
+img:hover {
+  transform:rotateY(180deg);
+  box-shadow: inset 1px 1px 3px 2px #444;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px #aaaaff;
+  transition: 0.3s;
+  color: #224499
+}
+h1:hover {
+  transform: translateY(3px);
+  text-shadow: 2px 2px 4px #14eb34;
+}
+
+p, li {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
