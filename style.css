@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9+Charted&display=swap');
+
 html {
   height: 100%;
   width: 100%;
+}
+
+#ugly {
+  font-family: "Jacquarda Bastarda 9 Charted", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: brown;
+  text-shadow: 1px 1px 6px yellow;
+  transform: rotate(10deg)
 }
 
 body {
