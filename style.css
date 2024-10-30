@@ -49,3 +49,12 @@ p, li {
 h3 {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+.red {
+  color: red;
+  background-color: yellow;
+}
+
+#myParagraph {
+  transition: 0.5s ease;
+}
